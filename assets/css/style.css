@@ -41,6 +41,7 @@ h1 { font-size: clamp(3.5rem, 8vw, 6.5rem); letter-spacing: -.07em; margin: 12px
 .skill-list i { font-size: 1.2rem; font-style: normal; }
 .skill-list .skill-code-icon { color: var(--accent); font: 700 .9rem 'Space Grotesk', sans-serif; }
 .project-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); align-items: start; gap: 18px; }
+.project-column { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
 .project-card { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 28px; transition: transform .25s, border-color .25s; }
 .project-card:hover { transform: translateY(-6px); border-color: rgba(155,240,197,.5); }
 .project-number { color: var(--accent); font-size: .7rem; letter-spacing: .14em; }
@@ -49,6 +50,7 @@ h1 { font-size: clamp(3.5rem, 8vw, 6.5rem); letter-spacing: -.07em; margin: 12px
 .project-card .project-status { margin-top: auto; padding-top: 12px; }
 .project-card a { color: var(--accent); font-size: .88rem; display: inline-block; margin-top: auto; padding-top: 12px; }
 .project-card img { display: block; width: 100%; height: auto; margin-top: 12px; border-radius: 4px; }
+.facebook-embed { display: block; width: 100%; max-width: 500px; height: 307px; align-self: center; border: 0; overflow: hidden; }
 .contact-section { padding: 90px 10%; background: var(--accent); color: #0b1711; }
 .contact-section .eyebrow { color: #285640; }
 .contact-section h2 { font-size: clamp(2.3rem,5vw,4rem); max-width: 600px; margin: 10px 0; letter-spacing: -.05em; }
